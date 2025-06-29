@@ -1,3 +1,19 @@
+Metadata-Version: 2.4
+Name: vgdl_env
+Version: 0.1.0
+Summary: VGDL (Video Game Definition Language) Python Environment
+Home-page: https://github.com/yourusername/vgdl_env
+Author: Original: Tom Schaul, Modified for Python 3
+Project-URL: repository, https://github.com/yourusername/vgdl_env
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numpy<2.0.0,>=1.20.0
+Requires-Dist: pygame>=2.0.0
+Requires-Dist: gym>=0.21.0
+Requires-Dist: gymnasium==0.29.1
+Dynamic: home-page
+Dynamic: requires-python
+
 # VGDL Environment
 
 A Python implementation of the Video Game Definition Language (VGDL) for reinforcement learning research.

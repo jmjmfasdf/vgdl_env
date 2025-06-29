@@ -1,0 +1,8 @@
+include README.md
+include LICENSE
+include requirements.txt
+recursive-include vgdl/games *.txt
+recursive-include vgdl/games *.json
+recursive-include vgdl *.py
+recursive-include vgdl *.pyc
+recursive-include vgdl *.json

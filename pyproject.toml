@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vgdl_env"
+version = "0.1.0"
+description = "VGDL (Video Game Definition Language) Python Environment"
+readme = "README.md"
+authors = [
+    {name = "Original: Tom Schaul, Modified for Python 3"}
+]
+requires-python = ">=3.7"
+dependencies = [
+    "numpy>=1.20.0,<2.0.0",
+    "pygame>=2.0.0",
+    "gym>=0.21.0",
+    "gymnasium==0.29.1",
+]
+
+[project.urls]
+repository = "https://github.com/yourusername/vgdl_env"
+
+[tool.setuptools]
+packages = ["vgdl_env", "vgdl"]
